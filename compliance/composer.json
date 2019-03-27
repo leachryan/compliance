@@ -1,0 +1,25 @@
+{
+    "name": "leachryan/compliance",
+    "description": "",
+    "keywords": ["compliance", "composer", "package", "validation", "sanitization"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Leach",
+            "email": "leachryan@hotmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": "^7.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Compliance\\Validation\\": "src/Validation",
+            "Compliance\\Sanitization\\": "src/Sanitization"
+        }
+    }
+}
